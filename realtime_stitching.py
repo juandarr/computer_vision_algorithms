@@ -1,7 +1,7 @@
 # import the necessary packages
 from __future__ import print_function
-from basicmotiondetector import BasicMotionDetector
-from panorama import Stitcher
+from utilities.basicmotiondetector import BasicMotionDetector
+from utilities.panorama import Stitcher
 from imutils.video import VideoStream
 import numpy as np
 import datetime
